@@ -9,7 +9,7 @@ class Solution {
             }
             map.put(nums[i], i);
         }
-        
-        throw new IllegalArgumentException("No two sum solution");
+        return new int[] {0,0};
+       // throw new IllegalArgumentException("No two sum solution");
     }
 }
